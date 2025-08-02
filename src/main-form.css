@@ -1,0 +1,17 @@
+.main-form {
+    display: grid;
+}
+
+.main-form__label {
+    font-size: .75rem;
+    line-height: 1.25;
+}
+
+.main-form__email-input {
+    font-family: inherit;
+    font-size: .75rem;
+}
+
+.main-form__button {
+    font-family: inherit;
+}

@@ -69,6 +69,10 @@ const proudOfThisFunc = () => {
 }
 ```
 
+https://nekocalc.com/px-to-rem-converter
+https://fonts.google.com/
+https://fontawesome.com/
+
 ## Author
 
 - Website - [ferfalcon.com](http://ferfalcon.com/)
