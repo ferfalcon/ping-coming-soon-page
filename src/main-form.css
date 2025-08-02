@@ -5,6 +5,7 @@
 .main-form__label {
     font-size: .75rem;
     line-height: 1.25;
+    color: var(--netral-900);
 }
 
 .main-form__email-input {
@@ -12,7 +13,26 @@
     font-size: .75rem;
 }
 
+.main-form__email-input.error {
+    font-family: inherit;
+    font-size: .75rem;
+    border-color: var(--error-400);
+}
+
 .main-form__button {
     font-family: inherit;
     font-weight: var(--font-weight-semibold);
+}
+
+.validation-message {
+    font-size: 0;
+    color: var(--error-400);
+    transition-property: font-size;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    margin: 0;
+}
+
+.validation-message.error {
+    font-size: .75rem;
 }

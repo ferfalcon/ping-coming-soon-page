@@ -3,8 +3,10 @@
     font-size: 1.25rem;
     line-height: 1.25;
     margin-block: 0;
+    color: var(--netral-400);
 
     strong {
         font-weight: var(--font-weight-bold);
+        color: var(--netral-900);
     }
 }

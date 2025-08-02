@@ -16,7 +16,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Useful links](#useful-links)
 - [Author](#author)
 
 ## Overview
@@ -49,29 +49,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-### What I learned
+### Useful links
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-https://nekocalc.com/px-to-rem-converter
-https://fonts.google.com/
-https://fontawesome.com/
+- Fonts - [Google Fonts](https://fonts.google.com/)
+- Icons - [Font Awesome](https://fontawesome.com/)
+- Pixels to Rems [PX to REM converter](https://nekocalc.com/px-to-rem-converter)
 
 ## Author
 
