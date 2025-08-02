@@ -1,0 +1,29 @@
+@property --font-weight {
+    syntax: "<font-weight>";
+    initial-value: 300;
+    inherits: true;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    --font-weight: 300;
+    font-weight: var(--font-weight);
+}
+
+.main-heading {
+    --font-weight: 300;
+    font-weight: var(--font-weight);
+
+    strong {
+        --font-weight: 700;
+        font-weight: var(--font-weight);
+    }
+}
+
+
+button {
+    --font-weight: 600;
+    font-weight: var(--font-weight);
+}

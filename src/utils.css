@@ -11,10 +11,10 @@
 }
 
 .remove-list-defaults {
-    margin: initial;
-    padding: initial;
+    margin: initial !important;
+    padding: initial !important;
 
     li::marker {
-        content: "";
+        content: "" !important;
     }
 }
