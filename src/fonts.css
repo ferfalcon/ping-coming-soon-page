@@ -1,7 +1,7 @@
 @property --font-weight {
-    syntax: "<font-weight>";
+    syntax: "<number>";
     initial-value: 300;
-    inherits: true;
+    inherits: false;
 }
 
 body {
@@ -21,7 +21,6 @@ body {
         font-weight: var(--font-weight);
     }
 }
-
 
 button {
     --font-weight: 600;
