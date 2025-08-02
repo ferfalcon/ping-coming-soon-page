@@ -1,7 +1,9 @@
-@import url(init.css);
 @import url(fonts.css);
+@import url(init.css);
 @import url(utils.css);
 @import url(main-wrapper.css);
+@import url(main-heading.css);
 @import url(main-logo.css);
 @import url(main-form.css);
 @import url(social-navigation.css);
+@import url(copyright.css);

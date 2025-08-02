@@ -1,0 +1,10 @@
+.main-heading {
+    font-weight: var(--font-weight-light);
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-block: 0;
+
+    strong {
+        font-weight: var(--font-weight-bold);
+    }
+}
