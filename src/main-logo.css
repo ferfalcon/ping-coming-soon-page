@@ -1,0 +1,10 @@
+.main-logo {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 3.375rem;
+
+    @media (min-width: 48rem) {
+        max-width: 5.375rem;
+    }
+}

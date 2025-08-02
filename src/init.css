@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: grid;
+    align-content: center;
+    margin: 0;
+    min-height: 100svh;
+    scrollbar-gutter: stable;
+}
+
+img {
+  /* Scale down images to fit on the screen*/
+  max-inline-size: 100%;
+
+  /* Preserves images' aspect ratio */
+  block-size: auto;
+
+  /* Prevent squashing and stretching */
+  object-fit: cover;
+}
