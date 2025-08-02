@@ -18,7 +18,6 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -36,19 +35,19 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ferfalcon/ping-coming-soon-page](https://github.com/ferfalcon/ping-coming-soon-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://ferfalcon.github.io/ping-coming-soon-page/](https://ferfalcon.github.io/ping-coming-soon-page/)
 
 ## My process
 
 ### Built with
 
+- [Vite](https://vite.dev//) - Build tool
+- [GitHub Pages](https://pages.github.com/) - Deploy
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [Vite](https://vite.dev//) - Build tool
-- [GitHub Pages](https://pages.github.com/) - Deploy
 
 ### What I learned
 
