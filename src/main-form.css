@@ -1,38 +1,59 @@
 .main-form {
     display: grid;
+    width: 100%;
+    max-width: 17.625rem;
+    margin: auto;
 }
 
 .main-form__label {
     font-size: .75rem;
     line-height: 1.25;
     color: var(--netral-900);
+    margin-bottom: 2.5rem;
 }
 
 .main-form__email-input {
     font-family: inherit;
     font-size: .75rem;
+    padding: 0.782rem .5rem 0.782rem 1.5rem;
+    border-radius: 2rem;
+    border: solid thin var(--main-color-100);
+    margin-bottom: .5rem;
+}
+
+.main-form__email-input::placeholder {
+  color: var(--netral-400);
 }
 
 .main-form__email-input.error {
-    font-family: inherit;
-    font-size: .75rem;
     border-color: var(--error-400);
 }
 
 .main-form__button {
     font-family: inherit;
+    font-size: .75rem;
+    line-height: 1.25;
     font-weight: var(--font-weight-semibold);
+    color: var(--netral-100);
+    background: var(--main-color-500);
+    border: 0;
+    border-radius: 2rem;
+    padding: 0.782rem .5rem;
+    margin-bottom: 4.5rem;
+    box-shadow: 0px 5px 10px 2px var(--main-color-500-shadow);
 }
 
 .validation-message {
     font-size: 0;
     color: var(--error-400);
-    transition-property: font-size;
+    transition-property: font-size, margin-bottom;
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     margin: 0;
+    margin-bottom: 0;
 }
 
 .validation-message.error {
     font-size: .75rem;
+    margin-bottom: 1.5rem;
 }

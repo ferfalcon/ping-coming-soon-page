@@ -1,7 +1,9 @@
 :root {
     --main-color-100: hsl(223, 100%, 88%);
     --main-color-500: hsl(223, 87%, 63%);
+    --main-color-500-shadow: hsla(223, 87%, 63%, .23);
 
+    --netral-100: hsl(0, 0%, 100%);
     --netral-400: hsl(0, 0%, 59%);
     --netral-900: hsl(209, 33%, 12%);
 

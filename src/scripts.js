@@ -14,11 +14,12 @@ function checkEmail() {
         if (!validateEmail(emailValue)) {
             message.textContent = "Please provide a valid email address.";
             message.classList.add('error')
+            emailInput.classList.add('error')
         } else {
             message.textContent = "";
         }
     } else {
         message.classList.remove('error')
+        emailInput.classList.remove('error')
     }
 }
-
