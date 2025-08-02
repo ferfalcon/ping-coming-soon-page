@@ -1,0 +1,9 @@
+.main-wrapper {
+    display: grid;
+    margin-inline: 1.75rem;
+    max-width: 44.5rem;
+
+    @media (min-width: 48rem) {
+        margin-inline: auto;
+    }
+}

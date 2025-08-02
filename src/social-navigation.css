@@ -1,0 +1,37 @@
+.social-nav {
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+
+    .social-nav__list {
+        display: contents;
+    }
+
+    .social-nav__link {
+        overflow: hidden;
+        display: block;
+        width: 2rem;
+        aspect-ratio: 1;
+        border: solid black thin;
+        border-radius: 100%;
+        text-indent: -100rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 60%;
+    }
+
+    .social-nav__link--facebook {
+        background-image: url("/public/facebook-f-brands-solid-full.svg");
+    }
+
+    .social-nav__link--twitter {
+        background-image: url("/public/twitter-brands-solid-full.svg");
+    }
+
+    .social-nav__link--instagram {
+        background-image: url("/public/instagram-brands-solid-full.svg");
+        background-size: 75%;
+    }
+
+    @media (min-width: 48rem) {}
+}

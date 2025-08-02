@@ -8,7 +8,7 @@
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 <body>
-    <main>
+    <main class="main-wrapper">
         <img class="main-logo" src="logo.svg" alt="PING. logo">
         <h1>We are launching soon!</h1>
         <p>Subscribe and get notified</p>
@@ -17,16 +17,16 @@
             <button>Notify Me</button>
         </form>
         <img src="illustration-dashboard.png" alt="Ping Dashboard">
-        <nav>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
+        <nav class="social-nav">
+            <ul class="social-nav__list   remove-list-defaults">
+                <li><a class="social-nav__link   social-nav__link--facebook" href="#">Facebook</a></li>
+                <li><a class="social-nav__link   social-nav__link--twitter" href="#">Twitter</a></li>
+                <li><a class="social-nav__link   social-nav__link--instagram" href="#">Instagram</a></li>
             </ul>
         </nav>
         <p>&copy; Copyright Ping. All rights reserved.</p>
     </main>
-    <footer class="signature">
+    <footer class="visually-hidden">
 		<p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.ferfalcon.com/" target="_blank">Fer Falcon</a>.</p>
 	</footer>
 </body>
