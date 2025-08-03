@@ -1,6 +1,7 @@
 :root {
     --main-color-100: hsl(223, 100%, 88%);
     --main-color-500: hsl(223, 87%, 63%);
+    --main-color-500-hover: hsla(223, 87%, 63%, .75);
     --main-color-500-shadow: hsla(223, 87%, 63%, .23);
 
     --netral-100: hsl(0, 0%, 100%);

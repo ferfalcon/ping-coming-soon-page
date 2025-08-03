@@ -1,5 +1,5 @@
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const emailInput = document.getElementById('email')
+const emailInput = document.getElementById('email');
 emailInput.addEventListener("blur", checkEmail);
 
 function validateEmail(email) {
@@ -13,13 +13,13 @@ function checkEmail() {
     if (emailValue != "") {
         if (!validateEmail(emailValue)) {
             message.textContent = "Please provide a valid email address.";
-            message.classList.add('error')
-            emailInput.classList.add('error')
+            message.classList.add('error');
+            emailInput.classList.add('error');
         } else {
             message.textContent = "";
         }
     } else {
-        message.classList.remove('error')
-        emailInput.classList.remove('error')
+        message.classList.remove('error');
+        emailInput.classList.remove('error');
     }
 }

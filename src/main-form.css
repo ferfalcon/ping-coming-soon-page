@@ -3,6 +3,7 @@
     width: 100%;
     max-width: 17.625rem;
     margin: auto;
+    position: relative;
 }
 
 .main-form__label {
@@ -41,19 +42,31 @@
     padding: 0.782rem .5rem;
     margin-bottom: 4.5rem;
     box-shadow: 0px 5px 10px 2px var(--main-color-500-shadow);
+    transition-property: transform, background;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+        background: var(--main-color-500-hover);
+    }
+}
+
+.error + .main-form__button {
+    transform: translateY(2.5rem);
 }
 
 .validation-message {
     font-size: 0;
     color: var(--error-400);
-    transition-property: font-size, margin-bottom;
+    transition-property: font-size;
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     margin: 0;
-    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    top: 6.5rem;
 }
 
 .validation-message.error {
     font-size: .75rem;
-    margin-bottom: 1.5rem;
 }
