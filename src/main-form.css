@@ -8,6 +8,16 @@
     transition-property: opacity;
     transition-duration: 300ms;
     transition-timing-function: ease-out;
+
+    @media (min-width: 48rem) {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 40rem;
+        justify-content: center;
+        align-content: center;
+        gap: 0 1rem;
+        margin-bottom: 5rem;
+    }
 }
 
 .main-form.submited {
@@ -22,6 +32,7 @@
     margin-bottom: 2.5rem;
 
     @media (min-width: 48rem) {
+        flex-basis: 100%;
         font-size: 1.25rem;
     }
 }
@@ -36,6 +47,10 @@
 
     @media (min-width: 48rem) {
         font-size: 1rem;
+        width: 100%;
+        max-width: 421px;
+        margin-bottom: 0;
+        padding-left: 2rem;
     }
 }
 
@@ -69,11 +84,19 @@
 
     @media (min-width: 48rem) {
         font-size: 1rem;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 200px;
+        padding: 1.125rem 1.5rem;
     }
 }
 
 .error + .main-form__button {
     transform: translateY(2.5rem);
+
+    @media (min-width: 48rem) {
+        transform: translateY(0);
+    }
 }
 
 .validation-message {
@@ -86,6 +109,12 @@
     position: absolute;
     width: 100%;
     top: 6.5rem;
+
+    @media (min-width: 48rem) {
+        top: 8.25rem;
+        left: 2rem;
+        text-align: initial;
+    }
 }
 
 .validation-message.error {
