@@ -1,0 +1,18 @@
+body {
+    background-image: url('./../../pixel-perfect-test/Mobile.png');
+    /* background-image: url('./../../pixel-perfect-test/Mobile\ -\ Error\ State.png'); */
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    @media (min-width: 48rem) {
+        background-image: url('./../../pixel-perfect-test/Tablet.png');
+    }
+
+    @media (min-width: 90rem) {
+        background-image: url('./../../pixel-perfect-test/Desktop.png');
+    }
+}
+
+main {
+    opacity: .5;
+}
