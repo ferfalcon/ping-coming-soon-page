@@ -6,6 +6,7 @@ body {
 
     @media (min-width: 48rem) {
         background-image: url('./../../pixel-perfect-test/Tablet.png');
+        /* background-image: url('./../../pixel-perfect-test/Tablet\ -\ Error\ State.png'); */
     }
 
     @media (min-width: 90rem) {

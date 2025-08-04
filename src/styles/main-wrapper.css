@@ -6,6 +6,6 @@
     position: relative;
 
     @media (min-width: 48rem) {
-        margin-inline: auto;
+        margin: 5.35rem auto auto;
     }
 }

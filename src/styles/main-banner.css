@@ -1,0 +1,7 @@
+.main-banner {
+    @media (min-width: 48rem) {
+        width: 100%;
+        max-width: 640px;
+        margin: auto;
+    }
+}
