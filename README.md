@@ -1,4 +1,4 @@
-# Frontend Mentor - Ping coming soon page solution
+# Ping coming soon page solution
 
 ![Design preview for the Ping coming soon page coding challenge](preview.jpg)
 
@@ -6,13 +6,12 @@
 
 This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da).
 
-**This is a pixel perfect project using Vite, HTML, CSS and JavaScript.**
+**It is a pixel perfect project using Vite, HTML, CSS and JavaScript.**
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -21,7 +20,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Overview
 
-## The challenge
+### The challenge
 
 Users should be able to:
 
@@ -29,7 +28,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Submit their email address using an `input` field
 - Receive an error message when the `form` is submitted if:
-	- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 ### Links
@@ -48,6 +46,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Javascript - Check email
 
 ### Useful links
 
