@@ -9,4 +9,8 @@
         font-weight: var(--font-weight-bold);
         color: var(--netral-900);
     }
+
+    @media (min-width: 48rem) {
+        font-size: 3rem;
+    }
 }

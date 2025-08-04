@@ -4,6 +4,15 @@
     max-width: 17.625rem;
     margin: auto;
     position: relative;
+    opacity: 100;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+
+.main-form.submited {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .main-form__label {
@@ -11,6 +20,10 @@
     line-height: 1.25;
     color: var(--netral-900);
     margin-bottom: 2.5rem;
+
+    @media (min-width: 48rem) {
+        font-size: 1.25rem;
+    }
 }
 
 .main-form__email-input {
@@ -20,6 +33,10 @@
     border-radius: 2rem;
     border: solid thin var(--main-color-100);
     margin-bottom: .5rem;
+
+    @media (min-width: 48rem) {
+        font-size: 1rem;
+    }
 }
 
 .main-form__email-input::placeholder {
@@ -44,10 +61,14 @@
     box-shadow: 0px 5px 10px 2px var(--main-color-500-shadow);
     transition-property: transform, background;
     transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;
 
     &:hover {
         background: var(--main-color-500-hover);
+    }
+
+    @media (min-width: 48rem) {
+        font-size: 1rem;
     }
 }
 
@@ -60,7 +81,7 @@
     color: var(--error-400);
     transition-property: font-size;
     transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;
     margin: 0;
     position: absolute;
     width: 100%;
@@ -69,4 +90,23 @@
 
 .validation-message.error {
     font-size: .75rem;
+}
+
+.confirmation-message {
+    position: absolute;
+    width: 100%;
+    top: 10.5rem;
+    color: var(--main-color-500);
+    animation-name: slideIn;
+    animation-duration: 300ms;
+    animation-timing-function: ease-out;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
 }
