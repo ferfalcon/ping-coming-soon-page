@@ -11,6 +11,7 @@ body {
 
     @media (min-width: 90rem) {
         background-image: url('./../../pixel-perfect-test/Desktop.png');
+        /* background-image: url('./../../pixel-perfect-test/Desktop\ -\ Active\ States.png'); */
     }
 }
 
