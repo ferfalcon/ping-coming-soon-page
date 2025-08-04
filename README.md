@@ -1,4 +1,4 @@
-# Ping coming soon page solution
+# Ping coming soon page
 
 ![Design preview for the Ping coming soon page coding challenge](preview.jpg)
 
